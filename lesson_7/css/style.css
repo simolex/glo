@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "MuseoSansCyrl-500";
+  src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"),
+    url("../fonts/MuseoSansCyrl-500.woff") format("woff"),
+    url("../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "MuseoSansCyrl-500";
+}
+.ticket {
+  width: 300px;
+  height: 463px;
+  border: 1px solid #e8e8e8;
+  margin: 49px 53px;
+}
+.header {
+  width: 125px;
+  font-size: 16px;
+  margin-left: 90px;
+  margin-top: 62px;
+  margin-bottom: 35px;
+}
+.price {
+  color: #5ba2a9;
+  padding: 0;
+  margin: 0;
+}
+.price-count {
+  font-size: 48px;
+  margin-left: 65px;
+}
+.price-currency {
+  font-size: 18px;
+  margin-left: 13px;
+}
+.text {
+  color: #454545;
+  font-size: 14px;
+}
